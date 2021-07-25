@@ -1,2 +1,11 @@
-# react-besic-render-array
-Created with CodeSandbox
+* 연산된 값을 재사용 하기 위해서 useMemo 사용
+
+useMemo 
+
+성능을 최적화해야하는 상황에서 사용.
+특정한 값만 변경 되었을 때만 특정 함수를 실행하여 처리하는 함수.
+
+두번째엔 deps 넣어줘야지, deps 가 변경 될 때마다 사용.
+
+필요한 연산을 필요할 때만 사용 가능.
+
